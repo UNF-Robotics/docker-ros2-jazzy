@@ -18,10 +18,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	ros-jazzy-robot-state-publisher \
 	ros-jazzy-ros2-controllers \
 	ros-jazzy-rplidar-ros \
+	ros-jazzy-slam-toolbox \
 	ros-jazzy-teleop-twist-keyboard \
 	ros-jazzy-xacro \
 	&& rm -rf /var/lib/apt/lists/*
-#	ros-jazzy-slam-toolbox \
 
 # ros 2 env
 RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
