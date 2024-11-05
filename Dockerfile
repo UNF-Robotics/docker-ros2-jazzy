@@ -12,10 +12,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	ros-dev-tools \
 	ros-jazzy-ament-lint-auto \
 	ros-jazzy-controller-manager \
+	ros-jazzy-depthimage-to-laserscan \
 	ros-jazzy-joint-limits \
 	ros-jazzy-joint-state-publisher \
 	ros-jazzy-joy-linux \
 	ros-jazzy-joy-teleop \
+	ros-jazzy-pointcloud-to-laserscan \
 	ros-jazzy-robot-state-publisher \
 	ros-jazzy-ros2-controllers \
 	ros-jazzy-ros2launch \
